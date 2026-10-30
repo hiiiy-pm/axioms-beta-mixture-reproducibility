@@ -2,7 +2,6 @@ from pathlib import Path
 import argparse
 import csv
 import gzip
-import hashlib
 import json
 
 import numpy as np
@@ -46,8 +45,7 @@ def audit_matrix(path):
             maximum = max(maximum, float(np.nanmax(values)))
     assert rows > 0
     return dict(rows=rows, columns=columns, missing=missing, endpoints=endpoints,
-                outside_unit_interval=outside, minimum=minimum, maximum=maximum,
-                sha256=hashlib.sha256(path.read_bytes()).hexdigest())
+                outside_unit_interval=outside, minimum=minimum, maximum=maximum)
 
 
 def main():

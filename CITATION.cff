@@ -12,9 +12,9 @@ authors:
   - family-names: Wang
     given-names: Zhining
     affiliation: "School of Mathematics and Statistics, Hanshan Normal University"
-version: 1.0.0
-date-released: 2026-10-30
-doi: "10.5281/zenodo.23811294"
+version: 1.0.1
+date-released: 2026-10-31
+doi: "10.5281/zenodo.23813141"
 repository-code: "https://github.com/hiiiy-pm/axioms-beta-mixture-reproducibility"
 url: "https://github.com/hiiiy-pm/axioms-beta-mixture-reproducibility"
 license: MIT

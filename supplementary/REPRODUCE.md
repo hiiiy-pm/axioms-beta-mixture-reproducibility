@@ -17,7 +17,7 @@ The complete machine-readable outputs remain in `results/`; the directory contai
 The reproducibility package contains `supplementary/code/` for research scripts,
 `supplementary/data/` for the extracted public-data subsets and their provenance,
 and `supplementary/results/` for the archived numerical results.
-`MANIFEST.sha256` records hashes of the supplementary files. Paths below are
+Paths below are
 relative to `supplementary/` unless a working directory is specified.
 
 The accompanying manuscript, its appendices, and the cover letter are supplied
@@ -91,7 +91,7 @@ The polynomial-Poisson reference is named `finite_bulk` in the code. Scalar simu
 
 ## Public-data inputs
 
-`data/data_provenance.json` records GEO accessions, extraction definitions, source hashes, sample mappings, permutation seeds, and saved baseline-fit coefficients. The five CSV files contain the three prespecified CpG subsets, the conversion-design matrix, and the public sample sheet. All recorded diagnostic failures are retained. EPICv2 address repetitions and GSE74167 independent bisulfite conversions remain distinct experimental designs.
+`data/data_provenance.json` records GEO accessions, extraction definitions, sample mappings, permutation seeds, and saved baseline-fit coefficients. The five CSV files contain the three prespecified CpG subsets, the conversion-design matrix, and the public sample sheet. All recorded diagnostic failures are retained. EPICv2 address repetitions and GSE74167 independent bisulfite conversions remain distinct experimental designs.
 
 `reproduce_diagnostics.py` recalculates the permutation statistics, ranks, and sample mapping from these inputs. Precision ranges use the saved fit coefficients. For the optional full GSE74167 matrix calculation, download the file from the `series_matrix_url` in `data/data_provenance.json` and save it as `data/GSE74167_series_matrix.txt.gz`. This full matrix is an optional external input and is not needed for the supplied-subset diagnostics. Then run from `supplementary/code/`:
 
@@ -99,7 +99,7 @@ The polynomial-Poisson reference is named `finite_bulk` in the code. Scalar simu
 python reproduce_diagnostics.py --series-matrix ../data/GSE74167_series_matrix.txt.gz
 ```
 
-The supplied CSV subsets are the starting inputs for the default diagnostic recheck. The recheck compares newly calculated statistics with the archived reports and evaluates precision ranges from the saved baseline-fit coefficients; it does not refit those coefficients. It does not re-extract raw IDAT intensities, rerun the complete probe-screening pipeline, or regenerate the four original diagnostic reports from raw measurements. Extraction definitions, source hashes, and the saved coefficients are recorded in `data/data_provenance.json` and the archived diagnostic outputs. These public-data calculations are design-compatibility diagnostics, rather than a successful real-data validation of the low-precision asymptotic regime.
+The supplied CSV subsets are the starting inputs for the default diagnostic recheck. The recheck compares newly calculated statistics with the archived reports and evaluates precision ranges from the saved baseline-fit coefficients; it does not refit those coefficients. It does not re-extract raw IDAT intensities, rerun the complete probe-screening pipeline, or regenerate the four original diagnostic reports from raw measurements. Extraction definitions, and the saved coefficients are recorded in `data/data_provenance.json` and the archived diagnostic outputs. These public-data calculations are design-compatibility diagnostics, rather than a successful real-data validation of the low-precision asymptotic regime.
 
 ## Full result-file inventory
 

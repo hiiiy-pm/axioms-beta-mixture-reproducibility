@@ -53,7 +53,6 @@
       ],
       "sequenceA": "ACAAAAAAACTATACTAAAAAACCCAAAAACCRCTAAAAACTAAAAATCC",
       "sequenceB": "",
-      "sequenceA_sha256": "36efe9f29b45658d084138a232bb04595aa0bccb26aa3f844d02fa68b54cdca2",
       "all_sequences_identical": true,
       "mean": 0.8248763167258826,
       "range": [
@@ -91,7 +90,6 @@
       ],
       "sequenceA": "AAAAATAAATATAAAATATAACCCTAAAAATAAACACCATCCACCTAAAC",
       "sequenceB": "",
-      "sequenceA_sha256": "8244258afae64db9849a3ff5337a002a35a2054a526a5d4cd76ee85e2b64c429",
       "all_sequences_identical": true,
       "mean": 0.7352993355296892,
       "range": [
@@ -129,7 +127,6 @@
       ],
       "sequenceA": "ACAACCAACACTATACCCAAATCCTAAAACATAACAAACATAAATCTACA",
       "sequenceB": "ACAACCAACGCTATACCCGAATCCTAAAACATAACGAACATAAATCTACG",
-      "sequenceA_sha256": "bd569138d7cb86c18e1f9da9291d93e0425ad204f3a7ea794fce413481f8c16b",
       "all_sequences_identical": true,
       "mean": 0.9692188330477002,
       "range": [
@@ -577,12 +574,6 @@
   "rejected_before_third": [
     "cg00095859"
   ],
-  "source_file_sha256": {
-    "EPICv2_cg00047338.npz": "5b29692d24df175d5ea792bce1e316f5f23362aa4a7c8e8b5a4ce3d93673e5f3",
-    "EPICv2_cg00121366.npz": "f52ba37fcacd8ab1c61e012efb27c14c9e3e3a3d54de088e6c4a1514b45ea71c",
-    "EPICv2_cg00160522.npz": "bac92406c107fdd84437772b4f5f83fb66df375e77e10c45b716fd2c4ff35c07",
-    "GSE74167_matched_raw3.npz": "de26358a196ba70f864d8afc6ae54df61bca42238b2ddf9ab48bf17c0283a9f2"
-  },
   "baseline_fits": {
     "cg00047338": {
       "beta": [
@@ -650,7 +641,6 @@
   "GSE74167": {
     "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74167",
     "design": "X and Z columns are the archived intercept, donor-group and chip-adjustment design; full arrays are supplied in CSV. Row ordering is donor-major, then conversion.",
-    "design_source_sha256": "de26358a196ba70f864d8afc6ae54df61bca42238b2ddf9ab48bf17c0283a9f2",
     "series_matrix_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE74nnn/GSE74167/matrix/GSE74167_series_matrix.txt.gz"
   }
 }
