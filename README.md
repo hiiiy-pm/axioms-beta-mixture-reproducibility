@@ -97,6 +97,12 @@ are retained in the archived results.
 
 ## Citation and licensing
 
+Version 1.0.0 is permanently archived in Zenodo: [10.5281/zenodo.23811294](https://doi.org/10.5281/zenodo.23811294).
+The [GitHub release](https://github.com/hiiiy-pm/axioms-beta-mixture-reproducibility/releases/tag/v1.0.0) and Zenodo provide the same ZIP, matching the journal supplementary archive.
+The release tag and archive remain unchanged; this branch adds the issued DOI to the citation metadata.
+
+Huang, Y., Yang, X., and Wang, Z. (2026). *Information Concentration and Score Calibration in Mean-Precision Beta Mixtures: Reproducibility Materials* (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23811294
+
 Please cite the version of this software that you use; author and version
 information is provided in `CITATION.cff`. The code is licensed under the MIT
 License. Third-party data retain their original rights and source attribution;
