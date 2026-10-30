@@ -1,0 +1,656 @@
+{
+  "accession": "GSE229715",
+  "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE229715",
+  "extraction_protocol": {
+    "accession": "GSE229715",
+    "independent_clusters": "16 distinct brain tumour specimens, one EPICv2 array each",
+    "repeat": "same CpG, same probe sequence and chemistry, distinct probe addresses on the same array; not independent bisulfite conversions",
+    "selection": "first 3 lexicographic exact-repeat groups with r>=3, positive M/U, total M+U>=1000 and beads>=3 for every record; no association selection",
+    "ratio": "raw M/(M+U+100), no background or dye correction, exploratory assay analysis only",
+    "model": "both predictors: intercept plus chip indicator; donor mean and precision Gaussian random intercepts; seven parameters",
+    "conditions": "within-array residual dependence and exchangeability require diagnostics; not claimed from repeated names alone"
+  },
+  "groups": [
+    {
+      "probe": "cg00047338",
+      "r": 5,
+      "replicates": [
+        {
+          "name": "cg00047338_TC21",
+          "type": "TypeII",
+          "color": "Both",
+          "addressA": 82675278,
+          "addressB": 0
+        },
+        {
+          "name": "cg00047338_TC22",
+          "type": "TypeII",
+          "color": "Both",
+          "addressA": 89785444,
+          "addressB": 0
+        },
+        {
+          "name": "cg00047338_TC23",
+          "type": "TypeII",
+          "color": "Both",
+          "addressA": 17627257,
+          "addressB": 0
+        },
+        {
+          "name": "cg00047338_TC24",
+          "type": "TypeII",
+          "color": "Both",
+          "addressA": 5709549,
+          "addressB": 0
+        },
+        {
+          "name": "cg00047338_TC25",
+          "type": "TypeII",
+          "color": "Both",
+          "addressA": 85723964,
+          "addressB": 0
+        }
+      ],
+      "sequenceA": "ACAAAAAAACTATACTAAAAAACCCAAAAACCRCTAAAAACTAAAAATCC",
+      "sequenceB": "",
+      "sequenceA_sha256": "36efe9f29b45658d084138a232bb04595aa0bccb26aa3f844d02fa68b54cdca2",
+      "all_sequences_identical": true,
+      "mean": 0.8248763167258826,
+      "range": [
+        0.6977711505258202,
+        0.9036220756932526
+      ],
+      "min_beads": 4,
+      "within_design_rank": 1
+    },
+    {
+      "probe": "cg00121366",
+      "r": 3,
+      "replicates": [
+        {
+          "name": "cg00121366_TC21",
+          "type": "TypeII",
+          "color": "Both",
+          "addressA": 63669587,
+          "addressB": 0
+        },
+        {
+          "name": "cg00121366_TC22",
+          "type": "TypeII",
+          "color": "Both",
+          "addressA": 92711143,
+          "addressB": 0
+        },
+        {
+          "name": "cg00121366_TC23",
+          "type": "TypeII",
+          "color": "Both",
+          "addressA": 8763905,
+          "addressB": 0
+        }
+      ],
+      "sequenceA": "AAAAATAAATATAAAATATAACCCTAAAAATAAACACCATCCACCTAAAC",
+      "sequenceB": "",
+      "sequenceA_sha256": "8244258afae64db9849a3ff5337a002a35a2054a526a5d4cd76ee85e2b64c429",
+      "all_sequences_identical": true,
+      "mean": 0.7352993355296892,
+      "range": [
+        0.5948813982521848,
+        0.8708851925090147
+      ],
+      "min_beads": 5,
+      "within_design_rank": 1
+    },
+    {
+      "probe": "cg00160522",
+      "r": 3,
+      "replicates": [
+        {
+          "name": "cg00160522_TC11",
+          "type": "TypeI",
+          "color": "Red",
+          "addressA": 12805857,
+          "addressB": 51679174
+        },
+        {
+          "name": "cg00160522_TC12",
+          "type": "TypeI",
+          "color": "Red",
+          "addressA": 47624531,
+          "addressB": 73660992
+        },
+        {
+          "name": "cg00160522_TC13",
+          "type": "TypeI",
+          "color": "Red",
+          "addressA": 47628180,
+          "addressB": 95729128
+        }
+      ],
+      "sequenceA": "ACAACCAACACTATACCCAAATCCTAAAACATAACAAACATAAATCTACA",
+      "sequenceB": "ACAACCAACGCTATACCCGAATCCTAAAACATAACGAACATAAATCTACG",
+      "sequenceA_sha256": "bd569138d7cb86c18e1f9da9291d93e0425ad204f3a7ea794fce413481f8c16b",
+      "all_sequences_identical": true,
+      "mean": 0.9692188330477002,
+      "range": [
+        0.8776483411676544,
+        0.9851736873093186
+      ],
+      "min_beads": 4,
+      "within_design_rank": 1
+    }
+  ],
+  "specimens": [
+    {
+      "gsm": "GSM7173814",
+      "source": "CV40",
+      "chip": "207219640008",
+      "characteristics": [
+        {
+          "tag": "disease state",
+          "value": "\nAstrocytoma with foci with high-grade features, consider HGAP\n      "
+        },
+        {
+          "tag": "Sex",
+          "value": "\nFemale\n      "
+        },
+        {
+          "tag": "age",
+          "value": "\n59\n      "
+        },
+        {
+          "tag": "material_type",
+          "value": "\nFFPE\n      "
+        },
+        {
+          "tag": "tumor_site",
+          "value": "\nBrain, fourth ventricle\n      "
+        }
+      ]
+    },
+    {
+      "gsm": "GSM7173815",
+      "source": "CV41",
+      "chip": "207219640008",
+      "characteristics": [
+        {
+          "tag": "disease state",
+          "value": "\nAtypical teratoid/rhabdoid tumor\n      "
+        },
+        {
+          "tag": "Sex",
+          "value": "\nFemale\n      "
+        },
+        {
+          "tag": "age",
+          "value": "\n5M\n      "
+        },
+        {
+          "tag": "material_type",
+          "value": "\nFFPE\n      "
+        },
+        {
+          "tag": "tumor_site",
+          "value": "\nBrain, posterior fossa\n      "
+        }
+      ]
+    },
+    {
+      "gsm": "GSM7173816",
+      "source": "CV42",
+      "chip": "207219640008",
+      "characteristics": [
+        {
+          "tag": "disease state",
+          "value": "\nGBM\n      "
+        },
+        {
+          "tag": "Sex",
+          "value": "\nFemale\n      "
+        },
+        {
+          "tag": "age",
+          "value": "\n48\n      "
+        },
+        {
+          "tag": "material_type",
+          "value": "\nFFPE\n      "
+        },
+        {
+          "tag": "tumor_site",
+          "value": "\nBrain\n      "
+        }
+      ]
+    },
+    {
+      "gsm": "GSM7173817",
+      "source": "CV43",
+      "chip": "207219640008",
+      "characteristics": [
+        {
+          "tag": "disease state",
+          "value": "\nMeningioma, meningothelial subtype\n      "
+        },
+        {
+          "tag": "Sex",
+          "value": "\nFemale\n      "
+        },
+        {
+          "tag": "age",
+          "value": "\n77\n      "
+        },
+        {
+          "tag": "material_type",
+          "value": "\nFFPE\n      "
+        },
+        {
+          "tag": "tumor_site",
+          "value": "\nBrain, meninges, right sphenoid wing\n      "
+        }
+      ]
+    },
+    {
+      "gsm": "GSM7173818",
+      "source": "CV44",
+      "chip": "207219640008",
+      "characteristics": [
+        {
+          "tag": "disease state",
+          "value": "\nDysembryoplastic neuroepithelial tumor\n      "
+        },
+        {
+          "tag": "Sex",
+          "value": "\nMale\n      "
+        },
+        {
+          "tag": "age",
+          "value": "\n22\n      "
+        },
+        {
+          "tag": "material_type",
+          "value": "\nFFPE\n      "
+        },
+        {
+          "tag": "tumor_site",
+          "value": "\nBrain, left parietal lobe\n      "
+        }
+      ]
+    },
+    {
+      "gsm": "GSM7173819",
+      "source": "CV45",
+      "chip": "207219640008",
+      "characteristics": [
+        {
+          "tag": "disease state",
+          "value": "\nLeft craniotomy for tumor resection\n      "
+        },
+        {
+          "tag": "Sex",
+          "value": "\nMale\n      "
+        },
+        {
+          "tag": "age",
+          "value": "\n5\n      "
+        },
+        {
+          "tag": "material_type",
+          "value": "\nFFPE\n      "
+        },
+        {
+          "tag": "tumor_site",
+          "value": "\nBrain\n      "
+        }
+      ]
+    },
+    {
+      "gsm": "GSM7173820",
+      "source": "CV46",
+      "chip": "207219640008",
+      "characteristics": [
+        {
+          "tag": "disease state",
+          "value": "\nDLGNT vs. PA\n      "
+        },
+        {
+          "tag": "Sex",
+          "value": "\nMale\n      "
+        },
+        {
+          "tag": "age",
+          "value": "\n39\n      "
+        },
+        {
+          "tag": "material_type",
+          "value": "\nFFPE\n      "
+        },
+        {
+          "tag": "tumor_site",
+          "value": "\nCervical spine\n      "
+        }
+      ]
+    },
+    {
+      "gsm": "GSM7173821",
+      "source": "CV47",
+      "chip": "207219640008",
+      "characteristics": [
+        {
+          "tag": "disease state",
+          "value": "\nPilocytic astrocytoma\n      "
+        },
+        {
+          "tag": "Sex",
+          "value": "\nFemale\n      "
+        },
+        {
+          "tag": "age",
+          "value": "\n6\n      "
+        },
+        {
+          "tag": "material_type",
+          "value": "\nFFPE\n      "
+        },
+        {
+          "tag": "tumor_site",
+          "value": "\nBrain, suprasellar\n      "
+        }
+      ]
+    },
+    {
+      "gsm": "GSM7173822",
+      "source": "CV48",
+      "chip": "207219640069",
+      "characteristics": [
+        {
+          "tag": "disease state",
+          "value": "\nGlioma with mitoses\n      "
+        },
+        {
+          "tag": "Sex",
+          "value": "\nFemale\n      "
+        },
+        {
+          "tag": "age",
+          "value": "\n23\n      "
+        },
+        {
+          "tag": "material_type",
+          "value": "\nFFPE\n      "
+        },
+        {
+          "tag": "tumor_site",
+          "value": "\nBrain\n      "
+        }
+      ]
+    },
+    {
+      "gsm": "GSM7173823",
+      "source": "CV49",
+      "chip": "207219640069",
+      "characteristics": [
+        {
+          "tag": "disease state",
+          "value": "\nMeningioma, WHO grade G3\n      "
+        },
+        {
+          "tag": "Sex",
+          "value": "\nMale\n      "
+        },
+        {
+          "tag": "age",
+          "value": "\n63\n      "
+        },
+        {
+          "tag": "material_type",
+          "value": "\nFFPE\n      "
+        },
+        {
+          "tag": "tumor_site",
+          "value": "\nBrain, left parasagittal\n      "
+        }
+      ]
+    },
+    {
+      "gsm": "GSM7173824",
+      "source": "CV50",
+      "chip": "207219640069",
+      "characteristics": [
+        {
+          "tag": "disease state",
+          "value": "\nHigh-grade glioma\n      "
+        },
+        {
+          "tag": "Sex",
+          "value": "\nMale\n      "
+        },
+        {
+          "tag": "age",
+          "value": "\n32\n      "
+        },
+        {
+          "tag": "material_type",
+          "value": "\nFFPE\n      "
+        },
+        {
+          "tag": "tumor_site",
+          "value": "\nBrain, left temporal tumor\n      "
+        }
+      ]
+    },
+    {
+      "gsm": "GSM7173825",
+      "source": "CV51",
+      "chip": "207219640069",
+      "characteristics": [
+        {
+          "tag": "disease state",
+          "value": "\nHigh-grade glioma (astrocytoma), grade 3-4\n      "
+        },
+        {
+          "tag": "Sex",
+          "value": "\nFemale\n      "
+        },
+        {
+          "tag": "age",
+          "value": "\n37\n      "
+        },
+        {
+          "tag": "material_type",
+          "value": "\nFFPE\n      "
+        },
+        {
+          "tag": "tumor_site",
+          "value": "\nBrain, right frontal lobe\n      "
+        }
+      ]
+    },
+    {
+      "gsm": "GSM7173826",
+      "source": "CV52",
+      "chip": "207219640069",
+      "characteristics": [
+        {
+          "tag": "disease state",
+          "value": "\nChoroid Glioma\n      "
+        },
+        {
+          "tag": "Sex",
+          "value": "\nMale\n      "
+        },
+        {
+          "tag": "age",
+          "value": "\n36\n      "
+        },
+        {
+          "tag": "material_type",
+          "value": "\nFFPE\n      "
+        },
+        {
+          "tag": "tumor_site",
+          "value": "\nBrain, third ventricular\n      "
+        }
+      ]
+    },
+    {
+      "gsm": "GSM7173827",
+      "source": "CV53",
+      "chip": "207219640069",
+      "characteristics": [
+        {
+          "tag": "disease state",
+          "value": "\nMedulloblastoma, non-WNT/non-SHH\n      "
+        },
+        {
+          "tag": "Sex",
+          "value": "\nMale\n      "
+        },
+        {
+          "tag": "age",
+          "value": "\n23\n      "
+        },
+        {
+          "tag": "material_type",
+          "value": "\nFFPE\n      "
+        },
+        {
+          "tag": "tumor_site",
+          "value": "\nBrain, posterior fossa, CP angle\n      "
+        }
+      ]
+    },
+    {
+      "gsm": "GSM7173828",
+      "source": "CV54",
+      "chip": "207219640069",
+      "characteristics": [
+        {
+          "tag": "disease state",
+          "value": "\nDiffuse pediatric-type high-grade glioma\n      "
+        },
+        {
+          "tag": "Sex",
+          "value": "\nFemale\n      "
+        },
+        {
+          "tag": "age",
+          "value": "\n45\n      "
+        },
+        {
+          "tag": "material_type",
+          "value": "\nFFPE\n      "
+        },
+        {
+          "tag": "tumor_site",
+          "value": "\nBrain, right frontal\n      "
+        }
+      ]
+    },
+    {
+      "gsm": "GSM7173829",
+      "source": "CV55",
+      "chip": "207219640069",
+      "characteristics": [
+        {
+          "tag": "disease state",
+          "value": "\nMedulloblastoma, grade 4\n      "
+        },
+        {
+          "tag": "Sex",
+          "value": "\nFemale\n      "
+        },
+        {
+          "tag": "age",
+          "value": "\n36\n      "
+        },
+        {
+          "tag": "material_type",
+          "value": "\nFFPE\n      "
+        },
+        {
+          "tag": "tumor_site",
+          "value": "\nBrain, left cerebellar pontine mass\n      "
+        }
+      ]
+    }
+  ],
+  "rejected_before_third": [
+    "cg00095859"
+  ],
+  "source_file_sha256": {
+    "EPICv2_cg00047338.npz": "5b29692d24df175d5ea792bce1e316f5f23362aa4a7c8e8b5a4ce3d93673e5f3",
+    "EPICv2_cg00121366.npz": "f52ba37fcacd8ab1c61e012efb27c14c9e3e3a3d54de088e6c4a1514b45ea71c",
+    "EPICv2_cg00160522.npz": "bac92406c107fdd84437772b4f5f83fb66df375e77e10c45b716fd2c4ff35c07",
+    "GSE74167_matched_raw3.npz": "de26358a196ba70f864d8afc6ae54df61bca42238b2ddf9ab48bf17c0283a9f2"
+  },
+  "baseline_fits": {
+    "cg00047338": {
+      "beta": [
+        1.6931501217374558,
+        -0.23474328226441762
+      ],
+      "gamma": [
+        6.006061886422286,
+        0.2738025698789838
+      ],
+      "v": 0.06613424258768244,
+      "w": 0.31278154508704,
+      "kappa": -0.04473525742427407,
+      "loglik": 24.92476336088683,
+      "order": 11,
+      "valid": true,
+      "quad_difference": 0.0005561578747546037,
+      "score": 0.012307484558913841,
+      "cap": false
+    },
+    "cg00121366": {
+      "beta": [
+        1.1502069413366496,
+        -0.1914155279548572
+      ],
+      "gamma": [
+        5.899663449945955,
+        1.1084475689822104
+      ],
+      "v": 0.13135459877596184,
+      "w": 0.43260923743482343,
+      "kappa": -0.23838039517286433,
+      "loglik": 15.107512328442132,
+      "order": 11,
+      "valid": true,
+      "quad_difference": 0.0007031072753633794,
+      "score": 0.016670747321761326,
+      "cap": false
+    },
+    "cg00160522": {
+      "beta": [
+        3.543106143639668,
+        0.09953043204577511
+      ],
+      "gamma": [
+        6.5683065621423395,
+        -0.28494923824415275
+      ],
+      "v": 0.06980020456602887,
+      "w": 1.397887062285457,
+      "kappa": 0.3123664561180186,
+      "loglik": -15.830525478242587,
+      "order": 31,
+      "valid": true,
+      "quad_difference": 0.0006581936553136103,
+      "score": 0.012149058654363998,
+      "cap": false
+    }
+  },
+  "seeds": {
+    "exchangeability": 2026103039,
+    "bead_diagnostic": 2026103051
+  },
+  "permutations": 9999,
+  "GSE74167": {
+    "source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74167",
+    "design": "X and Z columns are the archived intercept, donor-group and chip-adjustment design; full arrays are supplied in CSV. Row ordering is donor-major, then conversion.",
+    "design_source_sha256": "de26358a196ba70f864d8afc6ae54df61bca42238b2ddf9ab48bf17c0283a9f2",
+    "series_matrix_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE74nnn/GSE74167/matrix/GSE74167_series_matrix.txt.gz"
+  }
+}

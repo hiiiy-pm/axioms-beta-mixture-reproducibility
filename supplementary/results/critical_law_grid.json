@@ -1,0 +1,1648 @@
+{
+  "ts": [
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    3.0
+  ],
+  "rows": [
+    {
+      "phi": 0.001,
+      "tau": 0.03,
+      "a": 0.18312214501933297,
+      "H": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "mass": 0.9999999999999999,
+      "score_mean": 1.3889144825571242e-14,
+      "info": 0.7539915223889997,
+      "prediction": {
+        "D0": 0.012575144998680607,
+        "m": -0.09156107250966648,
+        "b": -5.460835989521779,
+        "ae": 0.5,
+        "info": 0.75,
+        "rare_fraction": 0.47987100744949185,
+        "bulk_variance_fraction": 0.5201289925505082
+      },
+      "central_probability": 0.004996309759063667,
+      "central_information_fraction": 0.4749025000289071,
+      "decomposition_relative_L2_error": 0.04247593238071129,
+      "third_moment": -6.459591706255066,
+      "fourth_moment": 321.20416969778,
+      "phi_fourth_moment": 0.32120416969778,
+      "normality": [],
+      "direction": -1,
+      "relative_information_error": 0.005322029851999588,
+      "cf_checks": [
+        {
+          "n": 100,
+          "n_phi": 0.1,
+          "hybrid_error": 0.07274474579348446,
+          "normal_error": 0.22121721735549993
+        },
+        {
+          "n": 1000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.014647381866878823,
+          "normal_error": 0.047856972589745264
+        }
+      ]
+    },
+    {
+      "phi": 0.0001,
+      "tau": 0.03,
+      "a": 0.18312214501933297,
+      "H": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "mass": 0.9999999999999996,
+      "score_mean": 1.3023771107791363e-12,
+      "info": 0.751778803371719,
+      "prediction": {
+        "D0": 0.012575144998680607,
+        "m": -0.09156107250966648,
+        "b": -5.460835989521779,
+        "ae": 0.5,
+        "info": 0.75,
+        "rare_fraction": 0.47987100744949185,
+        "bulk_variance_fraction": 0.5201289925505082
+      },
+      "central_probability": 0.0005007947966225576,
+      "central_information_fraction": 0.4785659171464704,
+      "decomposition_relative_L2_error": 0.013587945629553823,
+      "third_moment": -26.545245439229888,
+      "fourth_moment": 2002.6119401636874,
+      "phi_fourth_moment": 0.20026119401636874,
+      "normality": [],
+      "direction": -1,
+      "relative_information_error": 0.00237173782895872,
+      "cf_checks": [
+        {
+          "n": 1000,
+          "n_phi": 0.1,
+          "hybrid_error": 0.023338417071345437,
+          "normal_error": 0.17650617268241098
+        },
+        {
+          "n": 10000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.004909854840035687,
+          "normal_error": 0.04984648588420019
+        }
+      ]
+    },
+    {
+      "phi": 0.001,
+      "tau": 0.03,
+      "a": 0.0,
+      "H": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "mass": 1.0,
+      "score_mean": 1.1926223897340549e-18,
+      "info": 1.5000006046591448,
+      "prediction": {
+        "D0": 0.012575144998680607,
+        "m": 0.0,
+        "b": 0.0,
+        "ae": 1.0,
+        "info": 1.5,
+        "rare_fraction": 0.0,
+        "bulk_variance_fraction": 1.0
+      },
+      "central_probability": 0.004996309759063673,
+      "central_information_fraction": 6.244653324581525e-08,
+      "decomposition_relative_L2_error": 1.6000907972920677e-08,
+      "third_moment": -5.815246124679825e-08,
+      "fourth_moment": 213.99990785593428,
+      "phi_fourth_moment": 0.21399990785593428,
+      "normality": [],
+      "direction": 0,
+      "relative_information_error": 4.0310609650262563e-07,
+      "cf_checks": [
+        {
+          "n": 100,
+          "n_phi": 0.1,
+          "hybrid_error": 0.0913284504317323,
+          "normal_error": 0.0913284504317323
+        },
+        {
+          "n": 1000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.016255619960048512,
+          "normal_error": 0.016255619960048512
+        }
+      ]
+    },
+    {
+      "phi": 0.0001,
+      "tau": 0.03,
+      "a": 0.0,
+      "H": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "mass": 0.9999999999999986,
+      "score_mean": 2.5614276324970042e-17,
+      "info": 1.5000000061170105,
+      "prediction": {
+        "D0": 0.012575144998680607,
+        "m": 0.0,
+        "b": 0.0,
+        "ae": 1.0,
+        "info": 1.5,
+        "rare_fraction": 0.0,
+        "bulk_variance_fraction": 1.0
+      },
+      "central_probability": 0.0005007947966225578,
+      "central_information_fraction": 7.170143892258378e-11,
+      "decomposition_relative_L2_error": 3.0459997081729924e-06,
+      "third_moment": -1.9024089954104142e-05,
+      "fourth_moment": 213.99999910534947,
+      "phi_fourth_moment": 0.02139999991053495,
+      "normality": [],
+      "direction": 0,
+      "relative_information_error": 4.078007043162302e-09,
+      "cf_checks": [
+        {
+          "n": 1000,
+          "n_phi": 0.1,
+          "hybrid_error": 0.016255626105927207,
+          "normal_error": 0.016255626105927207
+        },
+        {
+          "n": 10000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.001865681141691298,
+          "normal_error": 0.001865681141691298
+        }
+      ]
+    },
+    {
+      "phi": 0.001,
+      "tau": 0.03,
+      "a": -0.18312214501933297,
+      "H": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "mass": 0.9999999999999974,
+      "score_mean": 9.864748991630923e-16,
+      "info": 0.7539915199034575,
+      "prediction": {
+        "D0": 0.012575144998680607,
+        "m": 0.09156107250966648,
+        "b": 5.460835989521779,
+        "ae": 0.5,
+        "info": 0.75,
+        "rare_fraction": 0.47987100744949185,
+        "bulk_variance_fraction": 0.5201289925505082
+      },
+      "central_probability": 0.004996309759063665,
+      "central_information_fraction": 0.47490250161055186,
+      "decomposition_relative_L2_error": 0.04247593224311275,
+      "third_moment": 6.459591754322174,
+      "fourth_moment": 321.2041706196775,
+      "phi_fourth_moment": 0.3212041706196775,
+      "normality": [],
+      "direction": 1,
+      "relative_information_error": 0.005322026537943225,
+      "cf_checks": [
+        {
+          "n": 100,
+          "n_phi": 0.1,
+          "hybrid_error": 0.07274474643114476,
+          "normal_error": 0.22121721828914764
+        },
+        {
+          "n": 1000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.014647381699143517,
+          "normal_error": 0.047856972861923704
+        }
+      ]
+    },
+    {
+      "phi": 0.0001,
+      "tau": 0.03,
+      "a": -0.18312214501933297,
+      "H": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "mass": 1.0,
+      "score_mean": -8.093058422855778e-13,
+      "info": 0.7517784089808497,
+      "prediction": {
+        "D0": 0.012575144998680607,
+        "m": 0.09156107250966648,
+        "b": 5.460835989521779,
+        "ae": 0.5,
+        "info": 0.75,
+        "rare_fraction": 0.47987100744949185,
+        "bulk_variance_fraction": 0.5201289925505082
+      },
+      "central_probability": 0.000500794796622558,
+      "central_information_fraction": 0.4785661694005361,
+      "decomposition_relative_L2_error": 0.013587903305456062,
+      "third_moment": 26.54526875248,
+      "fourth_moment": 2002.6138648111064,
+      "phi_fourth_moment": 0.20026138648111064,
+      "normality": [],
+      "direction": 1,
+      "relative_information_error": 0.002371211974466325,
+      "cf_checks": [
+        {
+          "n": 1000,
+          "n_phi": 0.1,
+          "hybrid_error": 0.023338460338458822,
+          "normal_error": 0.1765063311068929
+        },
+        {
+          "n": 10000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.0049098187892212,
+          "normal_error": 0.049846530554531726
+        }
+      ]
+    },
+    {
+      "phi": 0.001,
+      "tau": 0.3,
+      "a": 0.4088810584955992,
+      "H": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "mass": 0.999999999999998,
+      "score_mean": -1.5326822656088618e-13,
+      "info": 0.7620658314763097,
+      "prediction": {
+        "D0": 0.06269389499868061,
+        "m": -0.2044405292477996,
+        "b": -2.445699010072297,
+        "ae": 0.5,
+        "info": 0.75,
+        "rare_fraction": 0.09625255376886853,
+        "bulk_variance_fraction": 0.9037474462311315
+      },
+      "central_probability": 0.004996309769563368,
+      "central_information_fraction": 0.10842551506290805,
+      "decomposition_relative_L2_error": 0.02472847362255292,
+      "third_moment": 22.281034760517876,
+      "fourth_moment": 3477.5156321385853,
+      "phi_fourth_moment": 3.4775156321385854,
+      "normality": [],
+      "direction": -1,
+      "relative_information_error": 0.01608777530174632,
+      "cf_checks": [
+        {
+          "n": 100,
+          "n_phi": 0.1,
+          "hybrid_error": 0.13924435544044617,
+          "normal_error": 0.14071471602245927
+        },
+        {
+          "n": 1000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.0817145366704039,
+          "normal_error": 0.07868474050991627
+        }
+      ]
+    },
+    {
+      "phi": 0.0001,
+      "tau": 0.3,
+      "a": 0.4088810584955992,
+      "H": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "mass": 1.0000000000000004,
+      "score_mean": -1.1334858290683314e-12,
+      "info": 0.753973836578629,
+      "prediction": {
+        "D0": 0.06269389499868061,
+        "m": -0.2044405292477996,
+        "b": -2.445699010072297,
+        "ae": 0.5,
+        "info": 0.75,
+        "rare_fraction": 0.09625255376886853,
+        "bulk_variance_fraction": 0.9037474462311315
+      },
+      "central_probability": 0.0005007947966259323,
+      "central_information_fraction": 0.10011206021169261,
+      "decomposition_relative_L2_error": 0.007992640761985113,
+      "third_moment": 20.93676271164056,
+      "fourth_moment": 3672.7356621717045,
+      "phi_fourth_moment": 0.36727356621717044,
+      "normality": [],
+      "direction": -1,
+      "relative_information_error": 0.005298448771505315,
+      "cf_checks": [
+        {
+          "n": 1000,
+          "n_phi": 0.1,
+          "hybrid_error": 0.08403564020297484,
+          "normal_error": 0.07883033459960442
+        },
+        {
+          "n": 10000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.03716870247166578,
+          "normal_error": 0.03306794795318928
+        }
+      ]
+    },
+    {
+      "phi": 0.001,
+      "tau": 0.3,
+      "a": 0.0,
+      "H": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "mass": 1.0000000000000013,
+      "score_mean": -3.838075690598686e-17,
+      "info": 1.5000004989995555,
+      "prediction": {
+        "D0": 0.06269389499868061,
+        "m": 0.0,
+        "b": 0.0,
+        "ae": 1.0,
+        "info": 1.5,
+        "rare_fraction": 0.0,
+        "bulk_variance_fraction": 1.0
+      },
+      "central_probability": 0.004996309769563372,
+      "central_information_fraction": 6.244653743184681e-08,
+      "decomposition_relative_L2_error": 1.3333137510768968e-07,
+      "third_moment": 1.0417794271265924e-07,
+      "fourth_moment": 213.99987001487915,
+      "phi_fourth_moment": 0.21399987001487916,
+      "normality": [],
+      "direction": 0,
+      "relative_information_error": 3.326663702285515e-07,
+      "cf_checks": [
+        {
+          "n": 100,
+          "n_phi": 0.1,
+          "hybrid_error": 0.09132844300347814,
+          "normal_error": 0.09132844300347814
+        },
+        {
+          "n": 1000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.016255617668300363,
+          "normal_error": 0.016255617668300363
+        }
+      ]
+    },
+    {
+      "phi": 0.0001,
+      "tau": 0.3,
+      "a": 0.0,
+      "H": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "mass": 1.0000000000000004,
+      "score_mean": 3.436920886779049e-17,
+      "info": 1.500000005796665,
+      "prediction": {
+        "D0": 0.06269389499868061,
+        "m": 0.0,
+        "b": 0.0,
+        "ae": 1.0,
+        "info": 1.5,
+        "rare_fraction": 0.0,
+        "bulk_variance_fraction": 1.0
+      },
+      "central_probability": 0.0005007947966259325,
+      "central_information_fraction": 6.281834246125271e-11,
+      "decomposition_relative_L2_error": 3.0229180324766594e-07,
+      "third_moment": -8.138637166278054e-06,
+      "fourth_moment": 213.99999898751506,
+      "phi_fourth_moment": 0.021399999898751507,
+      "normality": [],
+      "direction": 0,
+      "relative_information_error": 3.864443209877777e-09,
+      "cf_checks": [
+        {
+          "n": 1000,
+          "n_phi": 0.1,
+          "hybrid_error": 0.01625562609878025,
+          "normal_error": 0.01625562609878025
+        },
+        {
+          "n": 10000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.0018656811403968548,
+          "normal_error": 0.0018656811403968548
+        }
+      ]
+    },
+    {
+      "phi": 0.001,
+      "tau": 0.3,
+      "a": -0.4088810584955992,
+      "H": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "mass": 0.9999999999999996,
+      "score_mean": 5.706427084334331e-14,
+      "info": 0.7620658372584815,
+      "prediction": {
+        "D0": 0.06269389499868061,
+        "m": 0.2044405292477996,
+        "b": 2.445699010072297,
+        "ae": 0.5,
+        "info": 0.75,
+        "rare_fraction": 0.09625255376886853,
+        "bulk_variance_fraction": 0.9037474462311315
+      },
+      "central_probability": 0.004996309769563365,
+      "central_information_fraction": 0.10842551421428509,
+      "decomposition_relative_L2_error": 0.024728476037187884,
+      "third_moment": -22.281034646196034,
+      "fourth_moment": 3477.515599738188,
+      "phi_fourth_moment": 3.477515599738188,
+      "normality": [],
+      "direction": 1,
+      "relative_information_error": 0.016087783011308643,
+      "cf_checks": [
+        {
+          "n": 100,
+          "n_phi": 0.1,
+          "hybrid_error": 0.13924435507793217,
+          "normal_error": 0.14071471555905063
+        },
+        {
+          "n": 1000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.0817145364084447,
+          "normal_error": 0.07868474024165113
+        }
+      ]
+    },
+    {
+      "phi": 0.0001,
+      "tau": 0.3,
+      "a": -0.4088810584955992,
+      "H": [
+        1.0,
+        0.0,
+        1.0
+      ],
+      "mass": 1.0000000000000013,
+      "score_mean": 1.6561206887203556e-12,
+      "info": 0.7539725748818815,
+      "prediction": {
+        "D0": 0.06269389499868061,
+        "m": 0.2044405292477996,
+        "b": 2.445699010072297,
+        "ae": 0.5,
+        "info": 0.75,
+        "rare_fraction": 0.09625255376886853,
+        "bulk_variance_fraction": 0.9037474462311315
+      },
+      "central_probability": 0.0005007947966259324,
+      "central_information_fraction": 0.10011222952066197,
+      "decomposition_relative_L2_error": 0.007992089902926346,
+      "third_moment": -20.936783713702624,
+      "fourth_moment": 3672.743213693014,
+      "phi_fourth_moment": 0.3672743213693014,
+      "normality": [],
+      "direction": 1,
+      "relative_information_error": 0.005296766509175432,
+      "cf_checks": [
+        {
+          "n": 1000,
+          "n_phi": 0.1,
+          "hybrid_error": 0.08403569816726174,
+          "normal_error": 0.07883041662012179
+        },
+        {
+          "n": 10000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.037168729798262926,
+          "normal_error": 0.03306797624200222
+        }
+      ]
+    },
+    {
+      "phi": 0.001,
+      "tau": 0.03,
+      "a": 0.21024102662002703,
+      "H": [
+        1.0,
+        0.4,
+        1.2
+      ],
+      "mass": 1.0000000000000002,
+      "score_mean": 4.579100770438216e-15,
+      "info": 0.7538595023979813,
+      "prediction": {
+        "D0": 0.013007144998680607,
+        "m": -0.09312051331001352,
+        "b": -5.36938620962513,
+        "ae": 0.5,
+        "info": 0.75,
+        "rare_fraction": 0.46393328435659115,
+        "bulk_variance_fraction": 0.5360667156434089
+      },
+      "central_probability": 0.004996309759533996,
+      "central_information_fraction": 0.45937255564689566,
+      "decomposition_relative_L2_error": 0.041757409424011384,
+      "third_moment": -3.9584340624385552,
+      "fourth_moment": 558.1663489180899,
+      "phi_fourth_moment": 0.5581663489180899,
+      "normality": [],
+      "direction": -1,
+      "relative_information_error": 0.005146003197308291,
+      "cf_checks": [
+        {
+          "n": 100,
+          "n_phi": 0.1,
+          "hybrid_error": 0.12606122738058811,
+          "normal_error": 0.255779978719244
+        },
+        {
+          "n": 1000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.024215775110714342,
+          "normal_error": 0.049000615299405074
+        }
+      ]
+    },
+    {
+      "phi": 0.0001,
+      "tau": 0.03,
+      "a": 0.21024102662002703,
+      "H": [
+        1.0,
+        0.4,
+        1.2
+      ],
+      "mass": 0.9999999999999997,
+      "score_mean": -2.009543762946861e-12,
+      "info": 0.7517173222404567,
+      "prediction": {
+        "D0": 0.013007144998680607,
+        "m": -0.09312051331001352,
+        "b": -5.36938620962513,
+        "ae": 0.5,
+        "info": 0.75,
+        "rare_fraction": 0.46393328435659115,
+        "bulk_variance_fraction": 0.5360667156434089
+      },
+      "central_probability": 0.0005007947966227071,
+      "central_information_fraction": 0.4627822143412556,
+      "decomposition_relative_L2_error": 0.013353911995271996,
+      "third_moment": -23.153798703158152,
+      "fourth_moment": 2124.12530772436,
+      "phi_fourth_moment": 0.21241253077243602,
+      "normality": [],
+      "direction": -1,
+      "relative_information_error": 0.0022897629872755676,
+      "cf_checks": [
+        {
+          "n": 1000,
+          "n_phi": 0.1,
+          "hybrid_error": 0.03942864152437831,
+          "normal_error": 0.17993276528431562
+        },
+        {
+          "n": 10000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.008457582992463651,
+          "normal_error": 0.04538122090065698
+        }
+      ]
+    },
+    {
+      "phi": 0.001,
+      "tau": 0.03,
+      "a": 0.024,
+      "H": [
+        1.0,
+        0.4,
+        1.2
+      ],
+      "mass": 0.9999999999999989,
+      "score_mean": -5.442694905877232e-17,
+      "info": 1.5000006026668418,
+      "prediction": {
+        "D0": 0.013007144998680607,
+        "m": 0.0,
+        "b": 0.0,
+        "ae": 1.0,
+        "info": 1.5,
+        "rare_fraction": 0.0,
+        "bulk_variance_fraction": 1.0
+      },
+      "central_probability": 0.004996309759533988,
+      "central_information_fraction": 6.24465684747306e-08,
+      "decomposition_relative_L2_error": 2.1232985637976363e-07,
+      "third_moment": 1.4508164118316475e-06,
+      "fourth_moment": 213.99996961581184,
+      "phi_fourth_moment": 0.21399996961581183,
+      "normality": [],
+      "direction": 0,
+      "relative_information_error": 4.017778945097916e-07,
+      "cf_checks": [
+        {
+          "n": 100,
+          "n_phi": 0.1,
+          "hybrid_error": 0.09132846332973187,
+          "normal_error": 0.09132846332973187
+        },
+        {
+          "n": 1000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.016255623743978296,
+          "normal_error": 0.016255623743978296
+        }
+      ]
+    },
+    {
+      "phi": 0.0001,
+      "tau": 0.03,
+      "a": 0.024,
+      "H": [
+        1.0,
+        0.4,
+        1.2
+      ],
+      "mass": 1.0000000000000002,
+      "score_mean": 5.629719780630982e-17,
+      "info": 1.5000000061230538,
+      "prediction": {
+        "D0": 0.013007144998680607,
+        "m": 0.0,
+        "b": 0.0,
+        "ae": 1.0,
+        "info": 1.5,
+        "rare_fraction": 0.0,
+        "bulk_variance_fraction": 1.0
+      },
+      "central_probability": 0.000500794796622707,
+      "central_information_fraction": 6.377312870967662e-11,
+      "decomposition_relative_L2_error": 1.0242378193860598e-06,
+      "third_moment": 6.290493589953465e-06,
+      "fourth_moment": 214.0003004047524,
+      "phi_fourth_moment": 0.02140003004047524,
+      "normality": [],
+      "direction": 0,
+      "relative_information_error": 4.0820358204740614e-09,
+      "cf_checks": [
+        {
+          "n": 1000,
+          "n_phi": 0.1,
+          "hybrid_error": 0.016255644562289447,
+          "normal_error": 0.016255644562289447
+        },
+        {
+          "n": 10000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.001865683713024868,
+          "normal_error": 0.001865683713024868
+        }
+      ]
+    },
+    {
+      "phi": 0.001,
+      "tau": 0.03,
+      "a": -0.16224102662002704,
+      "H": [
+        1.0,
+        0.4,
+        1.2
+      ],
+      "mass": 1.0000000000000009,
+      "score_mean": 5.23224990894508e-14,
+      "info": 0.7538598094220748,
+      "prediction": {
+        "D0": 0.013007144998680607,
+        "m": 0.09312051331001352,
+        "b": 5.36938620962513,
+        "ae": 0.5,
+        "info": 0.75,
+        "rare_fraction": 0.46393328435659115,
+        "bulk_variance_fraction": 0.5360667156434089
+      },
+      "central_probability": 0.004996309759533995,
+      "central_information_fraction": 0.4593723983364821,
+      "decomposition_relative_L2_error": 0.04175742406029798,
+      "third_moment": 7.42165217885978,
+      "fourth_moment": 212.5892396261492,
+      "phi_fourth_moment": 0.2125892396261492,
+      "normality": [],
+      "direction": 1,
+      "relative_information_error": 0.005146412562766267,
+      "cf_checks": [
+        {
+          "n": 100,
+          "n_phi": 0.1,
+          "hybrid_error": 0.03700946100182501,
+          "normal_error": 0.1832372109454259
+        },
+        {
+          "n": 1000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.007617215620560876,
+          "normal_error": 0.04600075230243449
+        }
+      ]
+    },
+    {
+      "phi": 0.0001,
+      "tau": 0.03,
+      "a": -0.16224102662002704,
+      "H": [
+        1.0,
+        0.4,
+        1.2
+      ],
+      "mass": 1.0,
+      "score_mean": 5.582363184989531e-13,
+      "info": 0.7517193292052494,
+      "prediction": {
+        "D0": 0.013007144998680607,
+        "m": 0.09312051331001352,
+        "b": 5.36938620962513,
+        "ae": 0.5,
+        "info": 0.75,
+        "rare_fraction": 0.46393328435659115,
+        "bulk_variance_fraction": 0.5360667156434089
+      },
+      "central_probability": 0.000500794796622707,
+      "central_information_fraction": 0.4627809731437168,
+      "decomposition_relative_L2_error": 0.013354123715061545,
+      "third_moment": 26.456930820808864,
+      "fourth_moment": 1788.6572894405228,
+      "phi_fourth_moment": 0.17886572894405228,
+      "normality": [],
+      "direction": 1,
+      "relative_information_error": 0.0022924389403324863,
+      "cf_checks": [
+        {
+          "n": 1000,
+          "n_phi": 0.1,
+          "hybrid_error": 0.01095119911690553,
+          "normal_error": 0.16105290016636828
+        },
+        {
+          "n": 10000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.0023015901419890243,
+          "normal_error": 0.04884411968597703
+        }
+      ]
+    },
+    {
+      "phi": 0.001,
+      "tau": 0.3,
+      "a": 0.771397892352314,
+      "H": [
+        1.0,
+        0.4,
+        1.2
+      ],
+      "mass": 1.0,
+      "score_mean": -1.946306885190069e-13,
+      "info": 0.757190142250819,
+      "prediction": {
+        "D0": 0.1058938949986806,
+        "m": -0.265698946176157,
+        "b": -1.881829067054344,
+        "ae": 0.5,
+        "info": 0.7499999999999999,
+        "rare_fraction": 0.0569857922349111,
+        "bulk_variance_fraction": 0.9430142077650889
+      },
+      "central_probability": 0.0049963097742665805,
+      "central_information_fraction": 0.06546250261156245,
+      "decomposition_relative_L2_error": 0.017377495041956383,
+      "third_moment": 47.92465988946461,
+      "fourth_moment": 10162.474550774099,
+      "phi_fourth_moment": 10.1624745507741,
+      "normality": [],
+      "direction": -1,
+      "relative_information_error": 0.009586856334425464,
+      "cf_checks": [
+        {
+          "n": 100,
+          "n_phi": 0.1,
+          "hybrid_error": 0.28367957047372777,
+          "normal_error": 0.28468554558778875
+        },
+        {
+          "n": 1000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.15623345387608348,
+          "normal_error": 0.15500730362550935
+        }
+      ]
+    },
+    {
+      "phi": 0.0001,
+      "tau": 0.3,
+      "a": 0.771397892352314,
+      "H": [
+        1.0,
+        0.4,
+        1.2
+      ],
+      "mass": 0.9999999999999991,
+      "score_mean": -1.105929678889804e-12,
+      "info": 0.7523581369371639,
+      "prediction": {
+        "D0": 0.1058938949986806,
+        "m": -0.265698946176157,
+        "b": -1.881829067054344,
+        "ae": 0.5,
+        "info": 0.7499999999999999,
+        "rare_fraction": 0.0569857922349111,
+        "bulk_variance_fraction": 0.9430142077650889
+      },
+      "central_probability": 0.0005007947966274337,
+      "central_information_fraction": 0.05965572867222062,
+      "decomposition_relative_L2_error": 0.0055792853392255815,
+      "third_moment": 47.7363714891537,
+      "fourth_moment": 10417.468065733032,
+      "phi_fourth_moment": 1.0417468065733033,
+      "normality": [],
+      "direction": -1,
+      "relative_information_error": 0.003144182582885291,
+      "cf_checks": [
+        {
+          "n": 1000,
+          "n_phi": 0.1,
+          "hybrid_error": 0.16036721554585992,
+          "normal_error": 0.15817060122755652
+        },
+        {
+          "n": 10000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.07303062063537251,
+          "normal_error": 0.0711688862301572
+        }
+      ]
+    },
+    {
+      "phi": 0.001,
+      "tau": 0.3,
+      "a": 0.24,
+      "H": [
+        1.0,
+        0.4,
+        1.2
+      ],
+      "mass": 1.0000000000000004,
+      "score_mean": 3.469446951953614e-18,
+      "info": 1.5000004790762735,
+      "prediction": {
+        "D0": 0.1058938949986806,
+        "m": 0.0,
+        "b": 0.0,
+        "ae": 1.0,
+        "info": 1.4999999999999998,
+        "rare_fraction": 0.0,
+        "bulk_variance_fraction": 1.0
+      },
+      "central_probability": 0.004996309774266587,
+      "central_information_fraction": 6.24465325194652e-08,
+      "decomposition_relative_L2_error": 7.50695027861989e-07,
+      "third_moment": 1.682155111923237e-05,
+      "fourth_moment": 214.00067164941095,
+      "phi_fourth_moment": 0.21400067164941095,
+      "normality": [],
+      "direction": 0,
+      "relative_information_error": 3.1938418243449007e-07,
+      "cf_checks": [
+        {
+          "n": 100,
+          "n_phi": 0.1,
+          "hybrid_error": 0.09132861037610313,
+          "normal_error": 0.09132861037610313
+        },
+        {
+          "n": 1000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.01625566678098582,
+          "normal_error": 0.01625566678098582
+        }
+      ]
+    },
+    {
+      "phi": 0.0001,
+      "tau": 0.3,
+      "a": 0.24,
+      "H": [
+        1.0,
+        0.4,
+        1.2
+      ],
+      "mass": 0.9999999999999997,
+      "score_mean": -2.6861108823328372e-17,
+      "info": 1.500000005729884,
+      "prediction": {
+        "D0": 0.1058938949986806,
+        "m": 0.0,
+        "b": 0.0,
+        "ae": 1.0,
+        "info": 1.4999999999999998,
+        "rare_fraction": 0.0,
+        "bulk_variance_fraction": 1.0
+      },
+      "central_probability": 0.000500794796627434,
+      "central_information_fraction": 6.311278117498758e-11,
+      "decomposition_relative_L2_error": 1.6164060802100692e-06,
+      "third_moment": -3.355259135843288e-05,
+      "fourth_moment": 213.99833408386928,
+      "phi_fourth_moment": 0.02139983340838693,
+      "normality": [],
+      "direction": 0,
+      "relative_information_error": 3.819922822501098e-09,
+      "cf_checks": [
+        {
+          "n": 1000,
+          "n_phi": 0.1,
+          "hybrid_error": 0.01625552411358949,
+          "normal_error": 0.01625552411358949
+        },
+        {
+          "n": 10000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.001865666930856726,
+          "normal_error": 0.001865666930856726
+        }
+      ]
+    },
+    {
+      "phi": 0.001,
+      "tau": 0.3,
+      "a": -0.29139789235231406,
+      "H": [
+        1.0,
+        0.4,
+        1.2
+      ],
+      "mass": 0.9999999999999991,
+      "score_mean": -6.15950704069973e-14,
+      "info": 0.7571913523488298,
+      "prediction": {
+        "D0": 0.1058938949986806,
+        "m": 0.265698946176157,
+        "b": 1.881829067054344,
+        "ae": 0.5,
+        "info": 0.7499999999999999,
+        "rare_fraction": 0.0569857922349111,
+        "bulk_variance_fraction": 0.9430142077650889
+      },
+      "central_probability": 0.004996309774266588,
+      "central_information_fraction": 0.0654625062656894,
+      "decomposition_relative_L2_error": 0.01737794122393439,
+      "third_moment": -8.795929163774042,
+      "fourth_moment": 1944.6885803671823,
+      "phi_fourth_moment": 1.9446885803671823,
+      "normality": [],
+      "direction": 1,
+      "relative_information_error": 0.009588469798439858,
+      "cf_checks": [
+        {
+          "n": 100,
+          "n_phi": 0.1,
+          "hybrid_error": 0.046316620509157254,
+          "normal_error": 0.04669493449062654
+        },
+        {
+          "n": 1000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.026111715365796054,
+          "normal_error": 0.024908161581782842
+        }
+      ]
+    },
+    {
+      "phi": 0.0001,
+      "tau": 0.3,
+      "a": -0.29139789235231406,
+      "H": [
+        1.0,
+        0.4,
+        1.2
+      ],
+      "mass": 1.0,
+      "score_mean": -3.1562784070376937e-13,
+      "info": 0.7523572562123799,
+      "prediction": {
+        "D0": 0.1058938949986806,
+        "m": 0.265698946176157,
+        "b": 1.881829067054344,
+        "ae": 0.5,
+        "info": 0.7499999999999999,
+        "rare_fraction": 0.0569857922349111,
+        "bulk_variance_fraction": 0.9430142077650889
+      },
+      "central_probability": 0.0005007947966274338,
+      "central_information_fraction": 0.05965579905307703,
+      "decomposition_relative_L2_error": 0.005578957818704532,
+      "third_moment": -8.19634875670949,
+      "fourth_moment": 2049.098189112229,
+      "phi_fourth_moment": 0.20490981891122292,
+      "normality": [],
+      "direction": 1,
+      "relative_information_error": 0.0031430082831733763,
+      "cf_checks": [
+        {
+          "n": 1000,
+          "n_phi": 0.1,
+          "hybrid_error": 0.026645104788418684,
+          "normal_error": 0.02465016466363049
+        },
+        {
+          "n": 10000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.013281577450679823,
+          "normal_error": 0.011549224950517172
+        }
+      ]
+    },
+    {
+      "phi": 0.001,
+      "tau": 0.03,
+      "a": 0.16746977830994814,
+      "H": [
+        0.7,
+        -0.25,
+        1.4
+      ],
+      "mass": 0.9999999999999988,
+      "score_mean": -5.444998835493764e-14,
+      "info": 0.7521178150996815,
+      "prediction": {
+        "D0": 0.012485707498680608,
+        "m": -0.09123488915497407,
+        "b": -5.480359593035581,
+        "ae": 0.49999999999999994,
+        "info": 0.7499999999999999,
+        "rare_fraction": 0.483308414839766,
+        "bulk_variance_fraction": 0.5166915851602341
+      },
+      "central_probability": 0.0049963097603598055,
+      "central_information_fraction": 0.4793603151071232,
+      "decomposition_relative_L2_error": 0.04243836283138864,
+      "third_moment": -8.05187215802513,
+      "fourth_moment": 230.9353273965736,
+      "phi_fourth_moment": 0.2309353273965736,
+      "normality": [],
+      "direction": -1,
+      "relative_information_error": 0.002823753466242085,
+      "cf_checks": [
+        {
+          "n": 100,
+          "n_phi": 0.1,
+          "hybrid_error": 0.04595447050390135,
+          "normal_error": 0.20145419105598747
+        },
+        {
+          "n": 1000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.00736804467959699,
+          "normal_error": 0.050022266436986075
+        }
+      ]
+    },
+    {
+      "phi": 0.0001,
+      "tau": 0.03,
+      "a": 0.16746977830994814,
+      "H": [
+        0.7,
+        -0.25,
+        1.4
+      ],
+      "mass": 1.0,
+      "score_mean": 1.7187659173516223e-13,
+      "info": 0.7511841132611222,
+      "prediction": {
+        "D0": 0.012485707498680608,
+        "m": -0.09123488915497407,
+        "b": -5.480359593035581,
+        "ae": 0.49999999999999994,
+        "info": 0.7499999999999999,
+        "rare_fraction": 0.483308414839766,
+        "bulk_variance_fraction": 0.5166915851602341
+      },
+      "central_probability": 0.0005007947966229712,
+      "central_information_fraction": 0.48232985377530546,
+      "decomposition_relative_L2_error": 0.013525100582844373,
+      "third_moment": -28.294202559742878,
+      "fourth_moment": 1943.8910300112962,
+      "phi_fourth_moment": 0.19438910300112963,
+      "normality": [],
+      "direction": -1,
+      "relative_information_error": 0.0015788176814963695,
+      "cf_checks": [
+        {
+          "n": 1000,
+          "n_phi": 0.1,
+          "hybrid_error": 0.011161630235597686,
+          "normal_error": 0.17410783824960246
+        },
+        {
+          "n": 10000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.002157892530806857,
+          "normal_error": 0.05237950758326688
+        }
+      ]
+    },
+    {
+      "phi": 0.001,
+      "tau": 0.03,
+      "a": -0.015,
+      "H": [
+        0.7,
+        -0.25,
+        1.4
+      ],
+      "mass": 0.9999999999999994,
+      "score_mean": 1.8214596497756474e-17,
+      "info": 1.5000006012082798,
+      "prediction": {
+        "D0": 0.012485707498680608,
+        "m": 0.0,
+        "b": 0.0,
+        "ae": 1.0,
+        "info": 1.5,
+        "rare_fraction": 0.0,
+        "bulk_variance_fraction": 1.0
+      },
+      "central_probability": 0.004996309760359805,
+      "central_information_fraction": 6.244654999842329e-08,
+      "decomposition_relative_L2_error": 1.4245673763624736e-07,
+      "third_moment": -7.318996027562375e-07,
+      "fourth_moment": 213.99993294400014,
+      "phi_fourth_moment": 0.21399993294400013,
+      "normality": [],
+      "direction": 0,
+      "relative_information_error": 4.008055198845284e-07,
+      "cf_checks": [
+        {
+          "n": 100,
+          "n_phi": 0.1,
+          "hybrid_error": 0.09132845569833663,
+          "normal_error": 0.09132845569833663
+        },
+        {
+          "n": 1000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.016255621498683596,
+          "normal_error": 0.016255621498683596
+        }
+      ]
+    },
+    {
+      "phi": 0.0001,
+      "tau": 0.03,
+      "a": -0.015,
+      "H": [
+        0.7,
+        -0.25,
+        1.4
+      ],
+      "mass": 0.9999999999999991,
+      "score_mean": -2.8866882842426556e-17,
+      "info": 1.5000000061146017,
+      "prediction": {
+        "D0": 0.012485707498680608,
+        "m": 0.0,
+        "b": 0.0,
+        "ae": 1.0,
+        "info": 1.5,
+        "rare_fraction": 0.0,
+        "bulk_variance_fraction": 1.0
+      },
+      "central_probability": 0.0005007947966229711,
+      "central_information_fraction": 6.628655765137656e-11,
+      "decomposition_relative_L2_error": 1.8996333186718608e-06,
+      "third_moment": 8.478914705804287e-06,
+      "fourth_moment": 213.99964237022976,
+      "phi_fourth_moment": 0.021399964237022978,
+      "normality": [],
+      "direction": 0,
+      "relative_information_error": 4.076401216579484e-09,
+      "cf_checks": [
+        {
+          "n": 1000,
+          "n_phi": 0.1,
+          "hybrid_error": 0.01625560425376028,
+          "normal_error": 0.01625560425376028
+        },
+        {
+          "n": 10000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.0018656780965222717,
+          "normal_error": 0.0018656780965222717
+        }
+      ]
+    },
+    {
+      "phi": 0.001,
+      "tau": 0.03,
+      "a": -0.19746977830994816,
+      "H": [
+        0.7,
+        -0.25,
+        1.4
+      ],
+      "mass": 0.9999999999999982,
+      "score_mean": 3.6688141131883956e-14,
+      "info": 0.7521176030568424,
+      "prediction": {
+        "D0": 0.012485707498680608,
+        "m": 0.09123488915497407,
+        "b": 5.480359593035581,
+        "ae": 0.49999999999999994,
+        "info": 0.7499999999999999,
+        "rare_fraction": 0.483308414839766,
+        "bulk_variance_fraction": 0.5166915851602341
+      },
+      "central_probability": 0.004996309760359805,
+      "central_information_fraction": 0.47936043067461714,
+      "decomposition_relative_L2_error": 0.04243836079887573,
+      "third_moment": 6.411407897331872,
+      "fourth_moment": 390.27829691219847,
+      "phi_fourth_moment": 0.39027829691219845,
+      "normality": [],
+      "direction": 1,
+      "relative_information_error": 0.002823470742456591,
+      "cf_checks": [
+        {
+          "n": 100,
+          "n_phi": 0.1,
+          "hybrid_error": 0.10545214660703467,
+          "normal_error": 0.24951927254559564
+        },
+        {
+          "n": 1000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.016352979363637398,
+          "normal_error": 0.051594848145271655
+        }
+      ]
+    },
+    {
+      "phi": 0.0001,
+      "tau": 0.03,
+      "a": -0.19746977830994816,
+      "H": [
+        0.7,
+        -0.25,
+        1.4
+      ],
+      "mass": 0.9999999999999993,
+      "score_mean": -4.05149939747447e-13,
+      "info": 0.7511785772905908,
+      "prediction": {
+        "D0": 0.012485707498680608,
+        "m": 0.09123488915497407,
+        "b": 5.480359593035581,
+        "ae": 0.49999999999999994,
+        "info": 0.7499999999999999,
+        "rare_fraction": 0.483308414839766,
+        "bulk_variance_fraction": 0.5166915851602341
+      },
+      "central_probability": 0.0005007947966229706,
+      "central_information_fraction": 0.482333419602669,
+      "decomposition_relative_L2_error": 0.013524720606173487,
+      "third_moment": 26.76950469528495,
+      "fourth_moment": 2097.6973312133923,
+      "phi_fourth_moment": 0.20976973312133923,
+      "normality": [],
+      "direction": 1,
+      "relative_information_error": 0.0015714363874546056,
+      "cf_checks": [
+        {
+          "n": 1000,
+          "n_phi": 0.1,
+          "hybrid_error": 0.028933241404476128,
+          "normal_error": 0.18565367145566053
+        },
+        {
+          "n": 10000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.005121770613493187,
+          "normal_error": 0.05072609159035649
+        }
+      ]
+    },
+    {
+      "phi": 0.001,
+      "tau": 0.3,
+      "a": 0.2285944003765529,
+      "H": [
+        0.7,
+        -0.25,
+        1.4
+      ],
+      "mass": 1.0000000000000004,
+      "score_mean": -3.547970294295877e-14,
+      "info": 0.7597217466118134,
+      "prediction": {
+        "D0": 0.0537501449986806,
+        "m": -0.18929720018827645,
+        "b": -2.641349156261668,
+        "ae": 0.49999999999999994,
+        "info": 0.7499999999999999,
+        "rare_fraction": 0.11226848782432924,
+        "bulk_variance_fraction": 0.8877315121756708
+      },
+      "central_probability": 0.004996309782524724,
+      "central_information_fraction": 0.12090229493240644,
+      "decomposition_relative_L2_error": 0.0240934433893206,
+      "third_moment": 6.627205872598065,
+      "fourth_moment": 1412.4669032695554,
+      "phi_fourth_moment": 1.4124669032695554,
+      "normality": [],
+      "direction": -1,
+      "relative_information_error": 0.012962328815751212,
+      "cf_checks": [
+        {
+          "n": 100,
+          "n_phi": 0.1,
+          "hybrid_error": 0.04610621168977726,
+          "normal_error": 0.05304971994868357
+        },
+        {
+          "n": 1000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.02415581356290126,
+          "normal_error": 0.021027045953271963
+        }
+      ]
+    },
+    {
+      "phi": 0.0001,
+      "tau": 0.3,
+      "a": 0.2285944003765529,
+      "H": [
+        0.7,
+        -0.25,
+        1.4
+      ],
+      "mass": 0.9999999999999989,
+      "score_mean": 5.17626441926336e-13,
+      "info": 0.7532327170587727,
+      "prediction": {
+        "D0": 0.0537501449986806,
+        "m": -0.18929720018827645,
+        "b": -2.641349156261668,
+        "ae": 0.49999999999999994,
+        "info": 0.7499999999999999,
+        "rare_fraction": 0.11226848782432924,
+        "bulk_variance_fraction": 0.8877315121756708
+      },
+      "central_probability": 0.0005007947966300618,
+      "central_information_fraction": 0.11514103498244996,
+      "decomposition_relative_L2_error": 0.007770170151170169,
+      "third_moment": 4.560373954027062,
+      "fourth_moment": 1581.1951926735005,
+      "phi_fourth_moment": 0.15811951926735007,
+      "normality": [],
+      "direction": -1,
+      "relative_information_error": 0.004310289411697088,
+      "cf_checks": [
+        {
+          "n": 1000,
+          "n_phi": 0.1,
+          "hybrid_error": 0.024942060800149782,
+          "normal_error": 0.027092695693226383
+        },
+        {
+          "n": 10000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.011540936170803363,
+          "normal_error": 0.00732095643111171
+        }
+      ]
+    },
+    {
+      "phi": 0.001,
+      "tau": 0.3,
+      "a": -0.15,
+      "H": [
+        0.7,
+        -0.25,
+        1.4
+      ],
+      "mass": 0.9999999999999989,
+      "score_mean": 6.518765562069095e-17,
+      "info": 1.5000004644904767,
+      "prediction": {
+        "D0": 0.0537501449986806,
+        "m": 0.0,
+        "b": 0.0,
+        "ae": 1.0,
+        "info": 1.5,
+        "rare_fraction": 0.0,
+        "bulk_variance_fraction": 1.0
+      },
+      "central_probability": 0.004996309782524728,
+      "central_information_fraction": 6.244659182603752e-08,
+      "decomposition_relative_L2_error": 6.721418182487046e-07,
+      "third_moment": -1.4630078047637757e-05,
+      "fourth_moment": 214.0004829581486,
+      "phi_fourth_moment": 0.2140004829581486,
+      "normality": [],
+      "direction": 0,
+      "relative_information_error": 3.0966031783208336e-07,
+      "cf_checks": [
+        {
+          "n": 100,
+          "n_phi": 0.1,
+          "hybrid_error": 0.09132857120181946,
+          "normal_error": 0.09132857120181946
+        },
+        {
+          "n": 1000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.016255655233218348,
+          "normal_error": 0.016255655233218348
+        }
+      ]
+    },
+    {
+      "phi": 0.0001,
+      "tau": 0.3,
+      "a": -0.15,
+      "H": [
+        0.7,
+        -0.25,
+        1.4
+      ],
+      "mass": 0.9999999999999991,
+      "score_mean": 1.192622389734055e-16,
+      "info": 1.5000000056820206,
+      "prediction": {
+        "D0": 0.0537501449986806,
+        "m": 0.0,
+        "b": 0.0,
+        "ae": 1.0,
+        "info": 1.5,
+        "rare_fraction": 0.0,
+        "bulk_variance_fraction": 1.0
+      },
+      "central_probability": 0.0005007947966300618,
+      "central_information_fraction": 6.367230343693936e-11,
+      "decomposition_relative_L2_error": 1.9420758911955976e-06,
+      "third_moment": 3.963138013053397e-05,
+      "fourth_moment": 213.99824615308043,
+      "phi_fourth_moment": 0.021399824615308045,
+      "normality": [],
+      "direction": 0,
+      "relative_information_error": 3.788013680505742e-09,
+      "cf_checks": [
+        {
+          "n": 1000,
+          "n_phi": 0.1,
+          "hybrid_error": 0.01625551872739492,
+          "normal_error": 0.01625551872739492
+        },
+        {
+          "n": 10000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.0018656661807035866,
+          "normal_error": 0.0018656661807035866
+        }
+      ]
+    },
+    {
+      "phi": 0.001,
+      "tau": 0.3,
+      "a": -0.5285944003765529,
+      "H": [
+        0.7,
+        -0.25,
+        1.4
+      ],
+      "mass": 1.0,
+      "score_mean": 1.5907495589870257e-14,
+      "info": 0.7597206913828198,
+      "prediction": {
+        "D0": 0.0537501449986806,
+        "m": 0.18929720018827645,
+        "b": 2.641349156261668,
+        "ae": 0.49999999999999994,
+        "info": 0.7499999999999999,
+        "rare_fraction": 0.11226848782432924,
+        "bulk_variance_fraction": 0.8877315121756708
+      },
+      "central_probability": 0.004996309782524726,
+      "central_information_fraction": 0.12090237137500119,
+      "decomposition_relative_L2_error": 0.02409307111976472,
+      "third_moment": -40.187595525365566,
+      "fourth_moment": 8062.393434898504,
+      "phi_fourth_moment": 8.062393434898505,
+      "normality": [],
+      "direction": 1,
+      "relative_information_error": 0.012960921843759854,
+      "cf_checks": [
+        {
+          "n": 100,
+          "n_phi": 0.1,
+          "hybrid_error": 0.2490528334706981,
+          "normal_error": 0.2548630449157559
+        },
+        {
+          "n": 1000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.13464518165387032,
+          "normal_error": 0.13116797474463318
+        }
+      ]
+    },
+    {
+      "phi": 0.0001,
+      "tau": 0.3,
+      "a": -0.5285944003765529,
+      "H": [
+        0.7,
+        -0.25,
+        1.4
+      ],
+      "mass": 0.9999999999999997,
+      "score_mean": 1.0339074567192533e-12,
+      "info": 0.753232717516085,
+      "prediction": {
+        "D0": 0.0537501449986806,
+        "m": 0.18929720018827645,
+        "b": 2.641349156261668,
+        "ae": 0.49999999999999994,
+        "info": 0.7499999999999999,
+        "rare_fraction": 0.11226848782432924,
+        "bulk_variance_fraction": 0.8877315121756708
+      },
+      "central_probability": 0.0005007947966300615,
+      "central_information_fraction": 0.11514103481722897,
+      "decomposition_relative_L2_error": 0.007770170281445862,
+      "third_moment": -38.58034307095473,
+      "fourth_moment": 8388.643956928925,
+      "phi_fourth_moment": 0.8388643956928925,
+      "normality": [],
+      "direction": 1,
+      "relative_information_error": 0.004310290021446894,
+      "cf_checks": [
+        {
+          "n": 1000,
+          "n_phi": 0.1,
+          "hybrid_error": 0.14305698152168045,
+          "normal_error": 0.14055689397302681
+        },
+        {
+          "n": 10000,
+          "n_phi": 1.0,
+          "hybrid_error": 0.06333113917534294,
+          "normal_error": 0.05833664843042621
+        }
+      ]
+    }
+  ],
+  "refinements": [
+    {
+      "row_index": 7,
+      "information_relative_change": -2.1169718336100374e-06,
+      "cf_max_change": 1.242262290139589e-07
+    },
+    {
+      "row_index": 19,
+      "information_relative_change": 1.1349000963445377e-06,
+      "cf_max_change": 1.7198782611220415e-07
+    },
+    {
+      "row_index": 31,
+      "information_relative_change": -3.0629569361950715e-06,
+      "cf_max_change": 1.5187388080155015e-07
+    }
+  ]
+}

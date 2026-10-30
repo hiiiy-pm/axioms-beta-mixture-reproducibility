@@ -1,0 +1,25 @@
+{
+  "rows": [
+    {
+      "probe": "cg00047338",
+      "statistic": -1.0494779612237877,
+      "p": 0.106,
+      "interpretation": "negative statistic means larger within-array residuals accompany fewer beads"
+    },
+    {
+      "probe": "cg00121366",
+      "statistic": 0.3023646526636936,
+      "p": 0.5906,
+      "interpretation": "negative statistic means larger within-array residuals accompany fewer beads"
+    },
+    {
+      "probe": "cg00160522",
+      "statistic": -1.453087024235471,
+      "p": 0.0064,
+      "interpretation": "negative statistic means larger within-array residuals accompany fewer beads"
+    }
+  ],
+  "B": 9999,
+  "scope": "supplementary conditional exchangeability implication given recorded bead counts; not an independence proof",
+  "timing": "added after the prespecified three-probe extraction and before final interpretation; does not alter probe selection, estimates or intervals"
+}

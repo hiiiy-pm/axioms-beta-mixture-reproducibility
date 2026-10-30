@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+reproduced_figures/
+figures/
+*.log
+*.aux
+*.out
+*.synctex.gz

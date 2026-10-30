@@ -1,0 +1,76 @@
+{
+  "rows": [
+    {
+      "probe": "cg00047338",
+      "m": 16,
+      "r": 5,
+      "B": 9999,
+      "statistic": 834.0,
+      "p": 0.0002,
+      "mean_ranks": [
+        3.5625,
+        3.0,
+        3.5,
+        1.4375,
+        3.5
+      ],
+      "mean_raw_copy_difference": [
+        0.006037453216664192,
+        0.0002438894534567207,
+        0.009521019882900536,
+        -0.01797548872565534,
+        0.0021731261726339393
+      ],
+      "bead_range": [
+        4,
+        21
+      ]
+    },
+    {
+      "probe": "cg00121366",
+      "m": 16,
+      "r": 3,
+      "B": 9999,
+      "statistic": 56.0,
+      "p": 0.2012,
+      "mean_ranks": [
+        1.75,
+        1.875,
+        2.375
+      ],
+      "mean_raw_copy_difference": [
+        -0.0001365952562661782,
+        -0.006734892938833267,
+        0.00687148819509939
+      ],
+      "bead_range": [
+        5,
+        20
+      ]
+    },
+    {
+      "probe": "cg00160522",
+      "m": 16,
+      "r": 3,
+      "B": 9999,
+      "statistic": 24.0,
+      "p": 0.5305,
+      "mean_ranks": [
+        1.875,
+        2.25,
+        1.875
+      ],
+      "mean_raw_copy_difference": [
+        -0.0008611065487283062,
+        0.001715423806355379,
+        -0.0008543172576271074
+      ],
+      "bead_range": [
+        4,
+        14
+      ]
+    }
+  ],
+  "claim": "conditional MC check of exchangeability, not proof of independence or Gaussian effects",
+  "multiplicity": "three prespecified probes; raw p values, Bonferroni threshold 0.05/3 supplied for joint flagging"
+}

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use these research materials, please cite this software version."
+type: software
+title: "Information Concentration and Score Calibration in Mean-Precision Beta Mixtures: Reproducibility Materials"
+authors:
+  - family-names: Huang
+    given-names: Yongye
+    affiliation: "School of Mathematics and Statistics, Hanshan Normal University"
+  - family-names: Yang
+    given-names: Xiaopeng
+    affiliation: "School of Mathematics and Statistics, Hanshan Normal University"
+  - family-names: Wang
+    given-names: Zhining
+    affiliation: "School of Mathematics and Statistics, Hanshan Normal University"
+version: 1.0.0
+date-released: 2026-10-30
+repository-code: "https://github.com/hiiiy-pm/axioms-beta-mixture-reproducibility"
+url: "https://github.com/hiiiy-pm/axioms-beta-mixture-reproducibility"
+license: MIT
+keywords:
+  - beta mixtures
+  - efficient information
+  - weak identification
+  - score calibration
+  - reproducibility

@@ -1,0 +1,20 @@
+{
+  "title": "Information Concentration and Score Calibration in Mean-Precision Beta Mixtures: Reproducibility Materials",
+  "upload_type": "software",
+  "description": "Python research software and archived materials accompanying the study by Yongye Huang, Xiaopeng Yang, and Zhining Wang. Includes information calculations, score calibration and replication experiments, 22 numerical result files, five public-data CSV subsets with provenance, and workflows for regenerating five figures and recalculating the supplied-data diagnostics. The public-data workflow starts from extracted subsets and saved fitted coefficients; it does not re-extract raw IDAT measurements or refit those coefficients. Manuscript and cover-letter files are supplied separately to the journal.",
+  "creators": [
+    {"name": "Huang, Yongye", "affiliation": "School of Mathematics and Statistics, Hanshan Normal University"},
+    {"name": "Yang, Xiaopeng", "affiliation": "School of Mathematics and Statistics, Hanshan Normal University"},
+    {"name": "Wang, Zhining", "affiliation": "School of Mathematics and Statistics, Hanshan Normal University"}
+  ],
+  "version": "1.0.0",
+  "publication_date": "2026-10-30",
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": ["beta mixtures", "efficient information", "weak identification", "score calibration", "reproducibility"],
+  "related_identifiers": [
+    {"identifier": "https://github.com/hiiiy-pm/axioms-beta-mixture-reproducibility", "relation": "isSupplementTo", "scheme": "url"},
+    {"identifier": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE229715", "relation": "isDerivedFrom", "scheme": "url"},
+    {"identifier": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74167", "relation": "isDerivedFrom", "scheme": "url"}
+  ]
+}

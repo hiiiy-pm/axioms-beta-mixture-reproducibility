@@ -1,0 +1,33 @@
+{
+  "accession": "GSE74167",
+  "donors": 14,
+  "arrays": 42,
+  "replicates_per_donor": 3,
+  "chips": [
+    "9974429078",
+    "9974429085",
+    "9974429087",
+    "9974429137"
+  ],
+  "same_chip_repeated_donors": 0,
+  "normalized_probes_downloaded": 500,
+  "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE74nnn/GSE74167/matrix/GSE74167_series_matrix.txt.gz",
+  "mapping_source": "GSM description fields, not dot-delimited titles",
+  "limitations": [
+    "Each donor is spread over three chips; no within-chip independent repeated pair",
+    "7 non-obese and 7 obese donors cannot be pooled as a homogeneous Gaussian population without adjustment",
+    "Overall design text contains an internally inconsistent 15 samples phrase; enumerated GSM records and paper establish 14 donors and 42 arrays",
+    "No association p-value is claimed from these feasibility data"
+  ],
+  "full_matrix": {
+    "rows": 485512,
+    "columns": 42,
+    "missing": 0,
+    "endpoints": 40073,
+    "outside_unit_interval": 0,
+    "minimum": 0.0,
+    "maximum": 1.0,
+    "bytes": 21519075,
+    "sha256": "4b6068279ca78003116acfdfcb70bc29b7ec987845df5c70295e11c9eefa9af6"
+  }
+}

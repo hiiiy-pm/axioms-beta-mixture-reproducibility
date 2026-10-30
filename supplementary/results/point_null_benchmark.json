@@ -1,0 +1,386 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "processor": "Intel64 Family 6 Model 165 Stepping 5, GenuineIntel",
+    "logical_processors": 20,
+    "blas_threads": 1
+  },
+  "shared_score_setup": {
+    "cpu_seconds": 0.109375,
+    "wall_seconds": 0.13697019999381155
+  },
+  "null": {
+    "phi": 0.0001,
+    "tau": 0.01,
+    "a": 0.25429793548702523,
+    "H": [
+      1.0,
+      0.0,
+      1.0
+    ]
+  },
+  "settings": [
+    {
+      "n": 200,
+      "validation_reps": 20000,
+      "validation_seed": 65500,
+      "reference_reps": 200000,
+      "references": {
+        "pp": {
+          "seed": 721200,
+          "reps": 200000,
+          "critical_value": 13.03908218131735,
+          "cpu_seconds": 2.984375,
+          "wall_seconds": 2.9773550999816507,
+          "quantile_variance": 0.0067224166873039205,
+          "quantile_mcse": 0.08199034508589362,
+          "rejections": 996,
+          "size": 0.0498,
+          "mcse": 0.0015381800934871053,
+          "wilson95": [
+            0.04687072704248897,
+            0.05290218222242761
+          ]
+        },
+        "gp": {
+          "seed": 129200,
+          "reps": 200000,
+          "critical_value": 11.26195243034515,
+          "cpu_seconds": 0.015625,
+          "wall_seconds": 0.015287000045645982,
+          "quantile_variance": 0.0019279409596012406,
+          "quantile_mcse": 0.04390832449093498,
+          "rejections": 1258,
+          "size": 0.0629,
+          "mcse": 0.0017167351280847024,
+          "wilson95": [
+            0.059618476093699954,
+            0.06634940182654671
+          ]
+        },
+        "null_mc": {
+          "seed": 202610500,
+          "reps": 200000,
+          "critical_value": 12.988089816304388,
+          "cpu_seconds": 8.46875,
+          "wall_seconds": 8.476657000021078,
+          "quantile_variance": 0.005255786987245343,
+          "quantile_mcse": 0.07249680673826499,
+          "rejections": 1000,
+          "size": 0.05,
+          "mcse": 0.0015411035007422442,
+          "wilson95": [
+            0.04706496286155674,
+            0.05310786958893742
+          ]
+        },
+        "null_mc_10000": {
+          "seed": 202610500,
+          "reps": 10000,
+          "nested": true,
+          "critical_value": 13.014729678868104,
+          "cpu_seconds": 0.4375,
+          "wall_seconds": 0.4299165999982506,
+          "quantile_variance": 0.10387195726917649,
+          "quantile_mcse": 0.32229172696359504,
+          "rejections": 997,
+          "size": 0.04985,
+          "mcse": 0.0015389115877788432,
+          "wilson95": [
+            0.046919284739933544,
+            0.052953605321377446
+          ]
+        }
+      },
+      "original_methods": {
+        "chi_square": {
+          "critical_value": 11.070497693516351,
+          "rejections": 1289,
+          "size": 0.06445,
+          "mcse": 0.0017363207868939425,
+          "wilson95": [
+            0.06112981407099141,
+            0.06793746853748131
+          ]
+        },
+        "gp": {
+          "critical_value": 11.314920703799686,
+          "rejections": 1250,
+          "size": 0.0625,
+          "mcse": 0.0017116329922036442,
+          "wilson95": [
+            0.05922854690823918,
+            0.06593948464085239
+          ]
+        },
+        "pp": {
+          "critical_value": 13.03908218131735,
+          "rejections": 996,
+          "size": 0.0498,
+          "mcse": 0.0015381800934871053,
+          "wilson95": [
+            0.04687072704248897,
+            0.05290218222242761
+          ]
+        }
+      },
+      "paired_pp_minus_null_mc": {
+        "difference": -0.0002,
+        "conditional_mcse": 9.999249934368202e-05,
+        "discordant_counts": [
+          0,
+          4
+        ],
+        "mcnemar_exact_p": 0.125,
+        "joint_resampling_ci95": [
+          -0.0013,
+          0.00095
+        ],
+        "joint_resampling_sd": 0.0005657391039845083
+      }
+    },
+    {
+      "n": 1000,
+      "validation_reps": 16000,
+      "validation_seed": 66300,
+      "reference_reps": 200000,
+      "references": {
+        "pp": {
+          "seed": 722000,
+          "reps": 200000,
+          "critical_value": 12.545762595885822,
+          "cpu_seconds": 15.375,
+          "wall_seconds": 15.373276499973144,
+          "quantile_variance": 0.0013442580004749925,
+          "quantile_mcse": 0.03666412416075137,
+          "rejections": 846,
+          "size": 0.052875,
+          "mcse": 0.0017691670775925885,
+          "wilson95": [
+            0.049513576683181945,
+            0.05645107331564769
+          ]
+        },
+        "gp": {
+          "seed": 130000,
+          "reps": 200000,
+          "critical_value": 12.236667023480713,
+          "cpu_seconds": 0.015625,
+          "wall_seconds": 0.028533499978948385,
+          "quantile_variance": 0.0008687009320857745,
+          "quantile_mcse": 0.0294737329173923,
+          "rejections": 914,
+          "size": 0.057125,
+          "mcse": 0.0018347638535892025,
+          "wilson95": [
+            0.05363409429342671,
+            0.0608285154202589
+          ]
+        },
+        "null_mc": {
+          "seed": 202611300,
+          "reps": 200000,
+          "critical_value": 12.580144603289687,
+          "cpu_seconds": 42.34375,
+          "wall_seconds": 42.351693300006445,
+          "quantile_variance": 0.0012299336504409787,
+          "quantile_mcse": 0.035070409898388395,
+          "rejections": 835,
+          "size": 0.0521875,
+          "mcse": 0.0017582655666122723,
+          "wilson95": [
+            0.04884759027727141,
+            0.055742389767684475
+          ]
+        },
+        "null_mc_10000": {
+          "seed": 202611300,
+          "reps": 10000,
+          "nested": true,
+          "critical_value": 12.774244345674354,
+          "cpu_seconds": 2.109375,
+          "wall_seconds": 2.123446799989324,
+          "quantile_variance": 0.02495711659516756,
+          "quantile_mcse": 0.1579782155715387,
+          "rejections": 794,
+          "size": 0.049625,
+          "mcse": 0.0017168714165415827,
+          "wilson95": [
+            0.04636676657974046,
+            0.053099443637140496
+          ]
+        }
+      },
+      "original_methods": {
+        "chi_square": {
+          "critical_value": 11.070497693516351,
+          "rejections": 1233,
+          "size": 0.0770625,
+          "mcse": 0.0021083742417700364,
+          "wilson95": [
+            0.07303093061470571,
+            0.08129710776131892
+          ]
+        },
+        "gp": {
+          "critical_value": 12.260895176182085,
+          "rejections": 909,
+          "size": 0.0568125,
+          "mcse": 0.0018300416635241876,
+          "wilson95": [
+            0.053330917240035525,
+            0.06050684249461656
+          ]
+        },
+        "pp": {
+          "critical_value": 12.545762595885822,
+          "rejections": 846,
+          "size": 0.052875,
+          "mcse": 0.0017691670775925885,
+          "wilson95": [
+            0.049513576683181945,
+            0.05645107331564769
+          ]
+        }
+      },
+      "paired_pp_minus_null_mc": {
+        "difference": 0.0006875,
+        "conditional_mcse": 0.00020722425739444288,
+        "discordant_counts": [
+          11,
+          0
+        ],
+        "mcnemar_exact_p": 0.0009765625,
+        "joint_resampling_ci95": [
+          -0.001125,
+          0.0020625
+        ],
+        "joint_resampling_sd": 0.0008068868129038105
+      }
+    },
+    {
+      "n": 10000,
+      "validation_reps": 4000,
+      "validation_seed": 75300,
+      "reference_reps": 50000,
+      "references": {
+        "pp": {
+          "seed": 731000,
+          "reps": 50000,
+          "critical_value": 11.335707552030826,
+          "cpu_seconds": 62.703125,
+          "wall_seconds": 62.70046329998877,
+          "quantile_variance": 0.003546319951686312,
+          "quantile_mcse": 0.05955098615208913,
+          "rejections": 209,
+          "size": 0.05225,
+          "mcse": 0.003518520196758859,
+          "wilson95": [
+            0.045773352977234574,
+            0.05958582848869311
+          ]
+        },
+        "gp": {
+          "seed": 139000,
+          "reps": 50000,
+          "critical_value": 11.158103507629654,
+          "cpu_seconds": 0.046875,
+          "wall_seconds": 0.04241540003567934,
+          "quantile_variance": 0.003920290222859574,
+          "quantile_mcse": 0.06261222103439211,
+          "rejections": 219,
+          "size": 0.05475,
+          "mcse": 0.003596958350467795,
+          "wilson95": [
+            0.048117728830939545,
+            0.06223665541853963
+          ]
+        },
+        "null_mc": {
+          "seed": 202620300,
+          "reps": 50000,
+          "critical_value": 11.357851838892357,
+          "cpu_seconds": 121.375,
+          "wall_seconds": 121.4639959000051,
+          "quantile_variance": 0.0033177742436132566,
+          "quantile_mcse": 0.05760012364234348,
+          "rejections": 207,
+          "size": 0.05175,
+          "mcse": 0.0035025682541529437,
+          "wilson95": [
+            0.045304992146476264,
+            0.05905514876274112
+          ]
+        },
+        "null_mc_10000": {
+          "seed": 202620300,
+          "reps": 10000,
+          "nested": true,
+          "critical_value": 11.303292954496749,
+          "cpu_seconds": 24.328125,
+          "wall_seconds": 24.32839579996653,
+          "quantile_variance": 0.01662796693766892,
+          "quantile_mcse": 0.12894947435980078,
+          "rejections": 211,
+          "size": 0.05275,
+          "mcse": 0.0035343824602043286,
+          "wilson95": [
+            0.046241888305294,
+            0.06011633371734398
+          ]
+        }
+      },
+      "original_methods": {
+        "chi_square": {
+          "critical_value": 11.070497693516351,
+          "rejections": 226,
+          "size": 0.0565,
+          "mcse": 0.0036506078261023876,
+          "wilson95": [
+            0.04976123892611693,
+            0.06408978727184829
+          ]
+        },
+        "gp": {
+          "critical_value": 11.232311064793329,
+          "rejections": 217,
+          "size": 0.05425,
+          "mcse": 0.0035814430576235606,
+          "wilson95": [
+            0.04764851826236748,
+            0.061706825430401395
+          ]
+        },
+        "pp": {
+          "critical_value": 11.335707552030826,
+          "rejections": 209,
+          "size": 0.05225,
+          "mcse": 0.003518520196758859,
+          "wilson95": [
+            0.045773352977234574,
+            0.05958582848869311
+          ]
+        }
+      },
+      "paired_pp_minus_null_mc": {
+        "difference": 0.0005,
+        "conditional_mcse": 0.00035350918260428034,
+        "discordant_counts": [
+          2,
+          0
+        ],
+        "mcnemar_exact_p": 0.5,
+        "joint_resampling_ci95": [
+          -0.00275,
+          0.0045
+        ],
+        "joint_resampling_sd": 0.0018109509865572504
+      }
+    }
+  ],
+  "quantile_uncertainty": "4000 nonparametric bootstrap quantiles from exact uniform order-statistic simulation of each independent reference sample",
+  "paired_uncertainty": "common validation resampling plus independent reference-quantile resampling; percentile intervals; conditional discordance summaries also retained",
+  "timing": "single-process CPU and wall time for reference generation and cutoff selection; shared score setup reported separately; validation and uncertainty calculations excluded",
+  "null_mc": "known-parameter simulation; rank cutoff gives unconditional rejection probability floor(0.05*(B+1))/(B+1) for a continuous statistic; numerical score mapping is fixed for all samples"
+}

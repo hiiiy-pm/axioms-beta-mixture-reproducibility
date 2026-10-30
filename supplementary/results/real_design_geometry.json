@@ -1,0 +1,421 @@
+{
+  "EPICv2": [
+    {
+      "probe": "cg00047338",
+      "m": 16,
+      "r": 5,
+      "mean_within_rank": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mean_plus_copy_fixed_rank": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "shared_precision_subset_data_conditions": [
+        {
+          "columns": [
+            0,
+            1
+          ],
+          "minimum_logit_residual": 0.005252572104960517,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            0,
+            2
+          ],
+          "minimum_logit_residual": 0.012129818904387668,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            0,
+            3
+          ],
+          "minimum_logit_residual": 0.002094743541569848,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            0,
+            4
+          ],
+          "minimum_logit_residual": 0.0035835076938961112,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            1,
+            2
+          ],
+          "minimum_logit_residual": 0.020792678077196133,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            1,
+            3
+          ],
+          "minimum_logit_residual": 0.020748480336276822,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            1,
+            4
+          ],
+          "minimum_logit_residual": 0.0006837934326024855,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            2,
+            3
+          ],
+          "minimum_logit_residual": 0.0023594430963263927,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            2,
+            4
+          ],
+          "minimum_logit_residual": 0.01181820626114561,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            3,
+            4
+          ],
+          "minimum_logit_residual": 0.011909996433255746,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            0,
+            1,
+            2
+          ],
+          "minimum_logit_residual": 0.03427280294343302,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            0,
+            1,
+            3
+          ],
+          "minimum_logit_residual": 0.04107633990004716,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            0,
+            1,
+            4
+          ],
+          "minimum_logit_residual": 0.01701992034951449,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            0,
+            2,
+            3
+          ],
+          "minimum_logit_residual": 0.017218296851316203,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            0,
+            2,
+            4
+          ],
+          "minimum_logit_residual": 0.033545501196109793,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            0,
+            3,
+            4
+          ],
+          "minimum_logit_residual": 0.040288880065094256,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            1,
+            2,
+            3
+          ],
+          "minimum_logit_residual": 0.03706402908187831,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            1,
+            2,
+            4
+          ],
+          "minimum_logit_residual": 0.023624426296102334,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            1,
+            3,
+            4
+          ],
+          "minimum_logit_residual": 0.024549559721092375,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            2,
+            3,
+            4
+          ],
+          "minimum_logit_residual": 0.02779522502782557,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "minimum_logit_residual": 0.049919299069229824,
+          "exactly_constant_donors": 0
+        }
+      ],
+      "fitted_baseline_phi_range": [
+        405.8817603100057,
+        533.7163170389122
+      ],
+      "implication": "The within-cluster mean space becomes saturated after copy effects. With copy coefficients shared across specimens, global panel saturation and likelihood existence require a separate calculation; within-cluster rank alone proves neither.",
+      "within_cluster_augmented_design_saturated": true
+    },
+    {
+      "probe": "cg00121366",
+      "m": 16,
+      "r": 3,
+      "mean_within_rank": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mean_plus_copy_fixed_rank": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "shared_precision_subset_data_conditions": [
+        {
+          "columns": [
+            0,
+            1
+          ],
+          "minimum_logit_residual": 0.008053681049072291,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            0,
+            2
+          ],
+          "minimum_logit_residual": 0.0072637947787073465,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            1,
+            2
+          ],
+          "minimum_logit_residual": 0.0038520679741013237,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            0,
+            1,
+            2
+          ],
+          "minimum_logit_residual": 0.03442733786585032,
+          "exactly_constant_donors": 0
+        }
+      ],
+      "fitted_baseline_phi_range": [
+        364.9146351566269,
+        1105.564141456881
+      ],
+      "implication": "The within-cluster mean space becomes saturated after copy effects. With copy coefficients shared across specimens, global panel saturation and likelihood existence require a separate calculation; within-cluster rank alone proves neither.",
+      "within_cluster_augmented_design_saturated": true
+    },
+    {
+      "probe": "cg00160522",
+      "m": 16,
+      "r": 3,
+      "mean_within_rank": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "mean_plus_copy_fixed_rank": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "shared_precision_subset_data_conditions": [
+        {
+          "columns": [
+            0,
+            1
+          ],
+          "minimum_logit_residual": 0.02289799543923921,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            0,
+            2
+          ],
+          "minimum_logit_residual": 0.034144163830679614,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            1,
+            2
+          ],
+          "minimum_logit_residual": 0.04049820736962379,
+          "exactly_constant_donors": 0
+        },
+        {
+          "columns": [
+            0,
+            1,
+            2
+          ],
+          "minimum_logit_residual": 0.0574105103792357,
+          "exactly_constant_donors": 0
+        }
+      ],
+      "fitted_baseline_phi_range": [
+        535.5837769651729,
+        712.1628179335294
+      ],
+      "implication": "The within-cluster mean space becomes saturated after copy effects. With copy coefficients shared across specimens, global panel saturation and likelihood existence require a separate calculation; within-cluster rank alone proves neither.",
+      "within_cluster_augmented_design_saturated": true
+    }
+  ],
+  "GSE74167": {
+    "dataset": "GSE74167",
+    "m": 14,
+    "r": 3,
+    "within_mean_rank": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "sampling_implication": "Replication changes information relative to the specified mean and precision designs. Recompute the nuisance score space when shared copy or batch coefficients are introduced.",
+  "cost_model": "EPIC addresses share an array; r-address subsampling is not an equal-cost assay allocation experiment"
+}
